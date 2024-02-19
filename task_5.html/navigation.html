@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(232, 234, 235);
+        }
+
+        .navbar {
+            background-color: rgb(253, 253, 253);
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+        }
+
+        .navbar img {
+            height: 50px;
+            width: 50px;
+            margin-right: 20px;
+            margin-left: 30px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+        }
+
+        .navbar li {
+            margin: 0 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            font-size: small;
+        }
+
+        .navbar li sup {
+            color: rgb(255, 0, 217);
+            font-size: smaller;
+        }
+
+        .search {
+            padding-left: 20px;
+        }
+
+        .search input {
+            width: 350px;
+            padding: 10px;
+            font-size: small;
+        }
+
+        .list {
+            float:inline-end;
+            margin-left: auto; 
+            display: flex;
+            align-items: center; 
+        }
+
+        .list li {
+            margin: 10px 0px 0px 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="download.png" alt="">
+            <ul>
+                <li>MEN</li>
+                <li>WOMEN</li>
+                <li>KIDS</li>
+                <li>HOME & LIVING</li>
+                <li>BEAUTY</li>
+                <li>STUDIO <sup>NEW</sup></li>
+            </ul>
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder=" &#128269; Search for products, brands, and more">
+            </div>
+            <ul class="list">
+                <li>Profile</li>
+                <li>Wishlist</li>
+                <li>Bag</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="img1">
+        <img width="100%" src="my1.jpg" alt="">
+    </div>
+</body>
+</html>
