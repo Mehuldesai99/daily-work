@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+    body{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background-image: url(workout-1946596.jpg);
+        color: white;
+    }
+    .left{
+        
+        display: inline-block;
+        position: absolute;
+        left: 24px;
+        top: 20px;
+    }
+    .left img{
+        width: 70px;
+        margin: auto;
+        padding-left: 10px;
+    }
+    .left div{
+        text-align: center;
+    }
+
+    .mid{
+        
+        display: block;
+        width: 35%;
+        margin: 20px auto;
+        
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li {
+        display: inline-block;
+        
+    }
+    .navbar li a{
+        color: white;
+        text-decoration:none;
+        padding: 14px 14px;
+    }
+
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: rgb(180, 178, 178);
+    }
+
+    .right{
+        
+        position: absolute;
+        right: 24px;
+        top: 20px;
+        display: inline-block;
+    }
+    .btn{
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 3px 4px;
+        border: 2px solid gray;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(69, 69, 69);
+    }
+    
+
+
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo1.png" alt="">
+            <div>MD FITNESS</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar"> 
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Gym calculation</a></li>
+                <li><a href="#">Contect us</a></li>
+                
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+
+    </header>
+    
+</body>
+</html>
