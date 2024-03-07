@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basketball</title>
+    <style>
+        .box {
+            background-color: black;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            background-repeat: no-repeat;
+            animation-name: gotoy;
+            animation-duration: 3s;
+            animation-delay: 1s;
+            position: absolute;
+            bottom: 0; /* Adjusted to be at the bottom */
+            left: 0;   /* Adjusted to be at the left */
+        }
+
+        @keyframes gotoy {
+            0% {
+                bottom: 0px;
+                left: 0px;
+            }
+            20% {
+                bottom: 500px;
+                left: 200px;
+            }
+            40% {
+                bottom: 0;
+                left: 400px;
+            }
+            60% {
+                bottom: 500px;
+                left: 600px;
+            }
+            80% {
+                bottom: 0px;
+                left: 800px;
+            }
+            100% {
+                bottom: 500px;
+                left: 1000px;
+            }
+        }
+
+        .net img {
+            position: absolute;
+            right: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="net">
+        <img src="net.png" alt="">
+    </div>
+</body>
+</html>

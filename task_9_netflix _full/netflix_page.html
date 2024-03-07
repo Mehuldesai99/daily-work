@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX</title>
+    <style>
+        body {
+            margin: 0%;
+            padding: 0%;
+            
+        }
+        .bg1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+        .bg1 img{
+            opacity: 0,0,0,0.5;
+            height: 710px;
+            object-fit: cover;
+        }
+        
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 30px;
+            top: 20px;
+        }
+        
+        .left img {
+            width: 180px;
+            margin: auto;
+            padding-left: 100px;
+        }
+        
+        .right {
+            position: absolute;
+            right: 107px;
+            top: 42px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .right select option {
+            color: black;
+        }
+        
+        .right select {
+            color: white;
+            border-radius: 5px;
+            background-color: transparent;
+            width: 110px;
+            height: 30px;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+        
+        .right button {
+            border: none;
+            height: 30px;
+            font-size: 20px;
+            border-radius: 5px;
+            background-color: red;
+            color: white;
+        }
+        
+        button:hover {
+            background-color: brown;
+        }
+        
+        .head {
+            position: relative;
+            z-index: 1;
+            align-items: center;
+            color: white;
+            margin: auto;
+            margin-top: 250px;
+            text-align: center; 
+            text-align: center; 
+        }
+        
+        .head h1, .head h3, .head h4 {
+            margin-top: 10px;
+            font-weight: bold; 
+        }
+        .head h1{
+            font-size: 50px;
+        }
+        .head h3{
+            font-size: 25px;
+        }
+        .box{
+            margin-left: 415px;
+        }
+        .box input{
+            align-items: center;
+            margin: auto;
+            height: 50px;
+            background-color: transparent;
+            font-size: 25px;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+        .box button{
+            align-items: center;
+            margin: auto;
+            height: 54px;
+            background-color: red;
+            font-size: 25px;
+            border: 1px solid red;
+            border-radius: 5px;
+        }
+        .cont{ 
+            color: white;
+            margin-bottom: 10px;
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="bg1">
+        <img src="n2.jpg" alt="">
+    </div>
+    <div class="left">
+        <img src="nf.png" alt="">
+    </div>
+    <div class="right">
+        <select name="langselect" class="select">
+            <option value="english">English</option>
+            <option value="hindi">Hindi</option>
+        </select>
+        <div class="btn">
+        <button>Sign in</button>
+        </div>
+    </div>
+    <div class="head">
+        <h1>Unlimited movies, TV shows and more</h1>
+        <h3>Watch anywhere. Cancel anytime.</h3>    
+        <h4>Ready to watch? Enter your email to create or restart your membership.</h4>
+    </div>
+
+    <div class="box">
+        <input type="text" placeholder="Email address">
+        <button>Get started</button>
+    </div>
+</div>
+<div class="cont">
+    <div class="mid">
+        <h1>Enjoy on your TV</h1> 
+        <h3>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+    </div>
+</div>
+    
+</body>
+</html>
